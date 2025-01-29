@@ -147,4 +147,25 @@ body {
     width: 0;
     transition: width 1s ease-in-out;
   }
-  
+  .social-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background:linear-gradient(90deg, #98f3a0, #4ef475);;
+}
+
+/* Styling Social Icons */
+.social-item i {
+    font-size: 48px; /* Icon size */
+    color: #333; /* Icon color */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover Effect */
+.social-item i:hover {
+    color: #0077b5; /* LinkedIn Blue */
+    transform: scale(1.2); /* Icon grows on hover */
+}
