@@ -169,3 +169,21 @@ body {
     color: #0077b5; /* LinkedIn Blue */
     transform: scale(1.2); /* Icon grows on hover */
 }
+@media (max-width: 768px) {
+    .social-links {
+        flex-direction: column; /* Stack the icons vertically */
+        gap: 10px; /* Adjust the gap for better spacing */
+        padding: 10px 0; /* Adjust padding */
+    }
+
+    .social-item i {
+        font-size: 36px; /* Reduce icon size for smaller screens */
+    }
+}
+
+/* For screens smaller than 480px (mobile) */
+@media (max-width: 480px) {
+    .social-item i {
+        font-size: 32px; /* Further reduce icon size for very small screens */
+    }
+}
