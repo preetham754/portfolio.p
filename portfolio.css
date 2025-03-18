@@ -55,7 +55,7 @@ body {
   
   /* About Section */
   #about{
-    background: linear-gradient(rgb(238, 144, 144),rgb(238, 246, 183));
+    background: linear-gradient(rgb(1, 255, 162),rgb(218, 241, 232));
   }
   .about-text {
     font-size: 1.1rem;
@@ -154,7 +154,7 @@ body {
     align-items: center;
     padding-top: 4px;
     padding-bottom: 4px;
-    background:linear-gradient(90deg, #98f3a0, #4ef475);;
+    background:linear-gradient(90deg,  rgb(166, 224, 218), rgb(159, 192, 240));;
 }
 
 /* Styling Social Icons */
@@ -171,7 +171,7 @@ body {
 }
 @media (max-width: 768px) {
     .social-links {
-        flex-direction: column; /* Stack the icons vertically */
+        flex-direction: row; /* Stack the icons vertically */
         gap: 10px; /* Adjust the gap for better spacing */
         padding: 10px 0; /* Adjust padding */
     }
@@ -186,4 +186,21 @@ body {
     .social-item i {
         font-size: 32px; /* Further reduce icon size for very small screens */
     }
+}
+.message-box {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background:linear-gradient(90deg, rgb(166, 224, 218), rgb(159, 192, 240));;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+.button{
+  background:linear-gradient(90deg, rgb(149, 247, 180), rgb(163, 250, 186));;
+  border-radius: 10px;
+  font-weight: bolder;
 }
