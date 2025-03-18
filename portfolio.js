@@ -40,3 +40,10 @@ document.querySelectorAll('.nav-link').forEach(link => {
     alert(`Thanks for reaching out, ${name}! I'll get back to you soon.`);
     form.reset();
   });  
+function showMessage() {
+    document.getElementById("msgBox").style.display = "block";
+}
+
+function hideMessage() {
+    document.getElementById("msgBox").style.display = "none";
+}
