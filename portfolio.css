@@ -169,6 +169,14 @@ body {
     color: #0077b5; /* LinkedIn Blue */
     transform: scale(1.2); /* Icon grows on hover */
 }
+.material-icons{
+  color: black;
+}
+.material-links:hover{
+  color: #0077b5; /* LinkedIn Blue */
+  transform: scale(1.2); /* Icon grows on hover */
+
+}
 @media (max-width: 768px) {
     .social-links {
         flex-direction: row; /* Stack the icons vertically */
@@ -179,6 +187,14 @@ body {
     .social-item i {
         font-size: 36px; /* Reduce icon size for smaller screens */
     }
+    .material-icons{
+  color: black;
+}
+.material-links:hover{
+  color: #0077b5; /* LinkedIn Blue */
+  transform: scale(1.2); /* Icon grows on hover */
+
+}
 }
 
 /* For screens smaller than 480px (mobile) */
@@ -186,6 +202,14 @@ body {
     .social-item i {
         font-size: 32px; /* Further reduce icon size for very small screens */
     }
+    .material-icons{
+  color: black;
+}
+.material-links:hover{
+  color: #0077b5; /* LinkedIn Blue */
+  transform: scale(1.2); /* Icon grows on hover */
+
+}
 }
 .message-box {
   display: none;
