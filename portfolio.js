@@ -40,3 +40,10 @@ document.querySelectorAll('.nav-link').forEach(link => {
     alert(`Thanks for reaching out, ${name}! I'll get back to you soon.`);
     form.reset();
   });  
+
+var typed = new Typed('#typed-name', {
+  strings: ['Preetham Reddy Korem'],
+  typeSpeed: 90,
+  backSpeed: 25,
+  showCursor: true
+});
